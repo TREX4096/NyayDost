@@ -1,0 +1,11 @@
+{
+    "build": {
+      "env": {
+        "NPM_CONFIG_FORCE": "true"
+      },
+      "commands": {
+        "build": "npm install --force && npm run build"
+      }
+    }
+  }
+  
