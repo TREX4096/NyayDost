@@ -4,7 +4,7 @@
         "NPM_CONFIG_FORCE": "true"
       },
       "commands": {
-        "build": "npm install --force && npm run build"
+        "build": "cd .. && npm install --force && cd frontend && npm run build"
       }
     }
   }
